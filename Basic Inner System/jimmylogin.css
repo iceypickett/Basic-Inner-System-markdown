@@ -1,0 +1,81 @@
+html {
+    overflow-y:scroll;
+    font-size: 15pt; 
+}
+body {
+    font-family: 'ÉÅÉCÉäÉI',
+	'hiragino Kaku Gothic Pro',
+	sans-serif;
+    background: #edede3 url(.jpg) repeat 200px 100px;
+    margin: 0;
+    text-align: left;
+}
+p	{line-height: 1.5; 
+}
+article {
+    background-color:#ffffff;
+    width: 400px;
+    margin-left:auto;
+	margin-right: auto;
+    border: solid 1px #aaaaaa;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 1px 1px 3px #aaaaaa;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    border-radius: 20px;
+    overflow: hidden;
+}
+caption {
+    font-weight: bold;
+    background-color: #d9d8a7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input, textarea {
+    display: block;}
+input {
+    width:300px;
+}
+input[type="submit"] {
+    width: 100px;
+    background-color: #ffaa00;
+    background-image: -webkit-gradient(
+    linear,
+    left top, left bottom, 
+    from(#ffe7b8),
+    to(#ffaa00));
+    background-image: -webkit-linear-gradient(
+	top,
+    #ffe7b8 0%,
+    #ffaa00 100%);
+    background-image: linear-gradient(
+    to bottom,
+	#ffe7b8 0%,
+    #ffaa00 100%);
+    border: solid 1px #aaaaaa;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px}
+textarea {
+    width: 600px;
+    height: 120px;
+}
+.loginform ul {  
+        padding: 10px;  
+        margin: 0;  
+ }  
+.loginform li {  
+        display: inline;  
+        float: left;  
+    }  
+footer {
+	width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
